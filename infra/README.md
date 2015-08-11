@@ -1,1 +1,1 @@
-Developed to Fedora Infrastructure
+Projects related to Fedora Infrastructure
