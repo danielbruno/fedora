@@ -25,7 +25,7 @@ date = time.strftime("%d_%m_%Y")
 if env == 'prd':
     report_file_name = '/srv/planet/output/reports/brokenplanetreport'+date+'.txt' 
     reporte_list_file_name = '/srv/planet/output/reports/brokenplanetreport'+date+'.json'
-elif env == 'dev'
+elif env == 'dev':
     report_file_name = '/home/fedora/'+user+'/public_html/reports/brokenplanetreport'+date+'.txt' 
     reporte_list_file_name = '/home/fedora/'+user+'/public_html/reports/brokenplanetreport'+date+'.json'
 else:
